@@ -13,8 +13,9 @@ $(document).ready(function(){
         items:1,
         loop: true,
         autoplay: false,
-        pagination :true,
+        pagination :false,
         dots:false,
+	  	mouseDrag:false,
         nav:true,
         responsiveClass:true,
 	});
