@@ -5,7 +5,20 @@ $(document).ready(function(){
 	    margin:10,
 	    dots:true,
 	    center:true,
+	    nav:false,
 	    mouseDrag:false,
+	    responsiveClass:true,
+	    responsive:{
+	        0:{
+	            items:1,
+	        },
+	        600:{
+	            items:2,
+	        },
+	        1000:{
+	            items:3,
+	        }
+	    }
 	});
   $('#owl2').owlCarousel({
 	    startPosition: 0,
@@ -13,11 +26,12 @@ $(document).ready(function(){
         items:1,
         loop: true,
         autoplay: false,
-        pagination :false,
+        pagination :true,
         dots:false,
-	  	mouseDrag:false,
         nav:true,
         responsiveClass:true,
+	    mouseDrag:false,
+        
 	});
 
 function img(){
