@@ -33,6 +33,30 @@ $(document).ready(function(){
 	    mouseDrag:false,
         
 	});
+	  $('#owl3').owlCarousel({
+		    startPosition: 0,
+	        margin: 20,
+	        items:1,
+	        loop: true,
+	        autoplay: false,
+	        pagination :true,
+	        dots:false,
+	        nav:true,
+	        responsiveClass:true,
+		    mouseDrag:false,
+		    responsive:{
+		        0:{
+		            items:1,
+		        },
+		        600:{
+		            items:1,
+		        },
+		        1000:{
+		            items:1,
+		        }
+		    }
+	        
+		});
 
 function img(){
 	  var test1 = $("#testi1");
