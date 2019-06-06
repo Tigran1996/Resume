@@ -1,4 +1,4 @@
-/*@font-face {
+@font-face {
     font-family: 'Metropolis Semi Bold';
     src: url('Metropolis-SemiBold.otf');
     src: local('Metropolis Semi Bold'), local('Metropolis-SemiBold'),
@@ -29,7 +29,7 @@
     url('../fonts/Metropolis-Light.otf') format('truetype');
     font-weight: bold;
     font-style: normal;
-}*/
+}
 *{
 	outline: none;
 	list-style: none;
