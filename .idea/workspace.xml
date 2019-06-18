@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1caf43d5-a9f9-47df-856e-8ffa407470ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/choose tenplate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/carousel_cv20-copy-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/info_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/info_form.html" afterDir="false" />
-    </list>
+    <list default="true" id="1caf43d5-a9f9-47df-856e-8ffa407470ff" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +149,7 @@
       <workItem from="1559114655905" duration="618000" />
       <workItem from="1559200729232" duration="218000" />
       <workItem from="1560515806571" duration="8904000" />
-      <workItem from="1560836834904" duration="9638000" />
+      <workItem from="1560836834904" duration="10104000" />
     </task>
     <task id="LOCAL-00001" summary="Add Site">
       <created>1559114878587</created>
@@ -178,11 +172,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560523515679</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add Site update12">
+      <created>1560856735045</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1560856735045</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19580000" />
+    <option name="totallyTimeSpent" value="20046000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -215,7 +216,8 @@
     <MESSAGE value="Add Site" />
     <MESSAGE value="Add Site update" />
     <MESSAGE value="Add Site update1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Site update1" />
+    <MESSAGE value="Add Site update12" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Site update12" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
