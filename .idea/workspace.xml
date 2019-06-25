@@ -4,8 +4,6 @@
     <list default="true" id="1caf43d5-a9f9-47df-856e-8ffa407470ff" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/choose tenplate.html" beforeDir="false" afterPath="$PROJECT_DIR$/choose tenplate.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Lcss.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Lcss.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,25 +18,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/Lcss.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
-              <caret line="780" column="1" lean-forward="true" selection-start-line="780" selection-start-column="1" selection-end-line="780" selection-end-column="1" />
+            <state relative-caret-position="13243">
+              <caret line="779" column="19" selection-start-line="779" selection-start-column="19" selection-end-line="779" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/choose tenplate.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="68" column="55" lean-forward="true" selection-start-line="68" selection-start-column="55" selection-end-line="68" selection-end-column="55" />
+            <state relative-caret-position="93">
+              <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#3404#3411#1" expanded="true" />
                 <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
@@ -90,8 +87,8 @@
       <list>
         <option value="$PROJECT_DIR$/info_form.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/choose tenplate.html" />
         <option value="$PROJECT_DIR$/css/Lcss.css" />
+        <option value="$PROJECT_DIR$/choose tenplate.html" />
       </list>
     </option>
   </component>
@@ -109,7 +106,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -131,6 +127,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -180,7 +177,8 @@
       <workItem from="1560926498685" duration="386000" />
       <workItem from="1561376510062" duration="794000" />
       <workItem from="1561382977628" duration="998000" />
-      <workItem from="1561443688041" duration="2717000" />
+      <workItem from="1561443688041" duration="3803000" />
+      <workItem from="1561469801663" duration="31000" />
     </task>
     <task id="LOCAL-00001" summary="Add Site">
       <created>1559114878587</created>
@@ -210,17 +208,24 @@
       <option name="project" value="LOCAL" />
       <updated>1560856735045</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add Site update">
+      <created>1561446522485</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1561446522485</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26298000" />
+    <option name="totallyTimeSpent" value="27415000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20948827" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14978679" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -246,10 +251,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add Site" />
-    <MESSAGE value="Add Site update" />
     <MESSAGE value="Add Site update1" />
     <MESSAGE value="Add Site update12" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Site update12" />
+    <MESSAGE value="Add Site update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Site update" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
@@ -266,6 +271,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/img/Template 2-1.jpg" />
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="525" selection-start-line="525" selection-end-line="525" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/Lcss.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13243">
+          <caret line="779" column="19" selection-start-line="779" selection-start-column="19" selection-end-line="779" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/page00011.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/page0001.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/info_form.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -277,40 +303,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/page0001.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/page00011.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/Template 2-1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="525" selection-start-line="525" selection-end-line="525" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/choose tenplate.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="68" column="55" lean-forward="true" selection-start-line="68" selection-start-column="55" selection-end-line="68" selection-end-column="55" />
+        <state relative-caret-position="93">
+          <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#3404#3411#1" expanded="true" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/Lcss.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="780" column="1" lean-forward="true" selection-start-line="780" selection-start-column="1" selection-end-line="780" selection-end-column="1" />
         </state>
       </provider>
     </entry>
