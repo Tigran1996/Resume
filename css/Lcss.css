@@ -774,6 +774,7 @@ input {
 .body_image img {
     width: 100%;
     height: 630px;
+    object-fit: contain;
 }
 .mod_dialog {
     max-width: 600px;
