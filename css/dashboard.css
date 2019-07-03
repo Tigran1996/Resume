@@ -3,7 +3,7 @@
 
 .dashboard_content {
     width: 65%;
-    height: 530px;
+    height: auto;
     background-color: #ffffff;
     box-shadow: 0 2px 21px 0 rgba(4, 4, 4, 0.25);
 }
