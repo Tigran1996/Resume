@@ -556,7 +556,7 @@ body {
     display: flex;
     justify-content: space-between;
 }
-input {
+.personal_info input {
     border: solid 1px #283887;
     background-color: #f7f7f7;
     height: 51px;
