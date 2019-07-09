@@ -2,33 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1caf43d5-a9f9-47df-856e-8ffa407470ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Apache License.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Roboto-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Roboto-BlackItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Roboto-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Roboto-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Roboto-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Roboto-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Roboto-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Roboto-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Roboto-MediumItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Roboto-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Roboto-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Roboto-ThinItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/RobotoCondensed-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/RobotoCondensed-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/RobotoCondensed-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/RobotoCondensed-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/RobotoCondensed-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/RobotoCondensed-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/CV preview@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/customer-service.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Lcss.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Lcss.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/dashboard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/experience.html" beforeDir="false" afterPath="$PROJECT_DIR$/experience.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,53 +21,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/header.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="130" column="51" selection-start-line="130" selection-start-column="51" selection-end-line="130" selection-end-column="51" />
-              <folding>
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dashboard.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-774">
-              <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
-              <folding>
-                <element signature="n#svg#0;n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#svg#0;n#div#1;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/dashboard.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="52" column="1" lean-forward="true" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+            <state relative-caret-position="725">
+              <caret line="648" column="5" lean-forward="true" selection-start-line="648" selection-start-column="5" selection-end-line="648" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/experience.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="136" column="22" lean-forward="true" selection-start-line="136" selection-start-column="22" selection-end-line="136" selection-end-column="22" />
+            <state relative-caret-position="1522">
+              <caret line="220" column="10" lean-forward="true" selection-start-line="220" selection-start-column="10" selection-end-line="221" selection-end-column="10" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#1;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#svg#0;n#p#0;n#div#2;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#section#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -99,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="671">
-              <caret line="126" column="75" selection-start-line="126" selection-start-column="75" selection-end-line="126" selection-end-column="75" />
+            <state relative-caret-position="501">
+              <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
             </state>
           </provider>
         </entry>
@@ -124,9 +74,16 @@
       <find>.header_inputs</find>
       <find>zip</find>
       <find>.back_continue a</find>
-      <find>.form_header input</find>
       <find>.header_inputs p</find>
       <find>.step-container .step</find>
+      <find>job_area</find>
+      <find>tips</find>
+      <find>.the_company</find>
+      <find>.first_name</find>
+      <find>.the_company h3</find>
+      <find>add_text</find>
+      <find>.form_header input</find>
+      <find>.time_input</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -139,18 +96,18 @@
         <option value="$PROJECT_DIR$/choose tenplate.html" />
         <option value="$PROJECT_DIR$/info_form.html" />
         <option value="$PROJECT_DIR$/css/Lcss.css" />
-        <option value="$PROJECT_DIR$/js/script.js" />
-        <option value="$PROJECT_DIR$/dashboard.html" />
         <option value="$PROJECT_DIR$/header.html" />
-        <option value="$PROJECT_DIR$/css/dashboard.css" />
+        <option value="$PROJECT_DIR$/dashboard.html" />
+        <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/experience.html" />
+        <option value="$PROJECT_DIR$/css/dashboard.css" />
       </list>
     </option>
   </component>
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1438" />
@@ -180,11 +137,6 @@
             <path>
               <item name="Resume" type="b2602c69:ProjectViewProjectNode" />
               <item name="Resume" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Resume" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Resume" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -197,7 +149,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../church" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -256,6 +208,11 @@
       <workItem from="1562137674395" duration="19878000" />
       <workItem from="1562221232219" duration="2461000" />
       <workItem from="1562224968099" duration="15715000" />
+      <workItem from="1562251972013" duration="351000" />
+      <workItem from="1562305753962" duration="603000" />
+      <workItem from="1562594501726" duration="3258000" />
+      <workItem from="1562651473364" duration="655000" />
+      <workItem from="1562652724522" duration="18556000" />
     </task>
     <task id="LOCAL-00001" summary="Add Site">
       <created>1559114878587</created>
@@ -310,13 +267,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70942000" />
+    <option name="totallyTimeSpent" value="94365000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1359275" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10554371" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -349,9 +306,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Add Site update11" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/resume.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="569">
@@ -423,16 +377,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
+    <entry file="file://$PROJECT_DIR$/fonts/Apache License.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="126" column="75" selection-start-line="126" selection-start-column="75" selection-end-line="126" selection-end-column="75" />
+        <state relative-caret-position="8925">
+          <caret line="525" selection-start-line="525" selection-end-line="525" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/img/customer-service.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
+        <state relative-caret-position="1156">
           <caret line="130" column="51" selection-start-line="130" selection-start-column="51" selection-end-line="130" selection-end-column="51" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -444,46 +404,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-774">
-          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+        <state relative-caret-position="2057">
+          <caret line="169" selection-start-line="169" selection-end-line="169" />
           <folding>
             <element signature="n#svg#0;n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#svg#0;n#div#1;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fonts/Apache License.txt">
+    <entry file="file://$PROJECT_DIR$/js/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8925">
-          <caret line="525" selection-start-line="525" selection-end-line="525" />
+        <state relative-caret-position="501">
+          <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experience.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1522">
+          <caret line="220" column="10" lean-forward="true" selection-start-line="220" selection-start-column="10" selection-end-line="221" selection-end-column="10" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#svg#0;n#p#0;n#div#2;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#section#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/dashboard.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="52" column="1" lean-forward="true" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/customer-service.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experience.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="136" column="22" lean-forward="true" selection-start-line="136" selection-start-column="22" selection-end-line="136" selection-end-column="22" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="725">
+          <caret line="648" column="5" lean-forward="true" selection-start-line="648" selection-start-column="5" selection-end-line="648" selection-end-column="5" />
         </state>
       </provider>
     </entry>

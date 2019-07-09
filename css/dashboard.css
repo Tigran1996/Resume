@@ -183,7 +183,15 @@
     font-size: 14px;
     color: #212529;
 }
-
+.work_area {
+    display: flex;
+    justify-content: space-between;
+}
+.tips {
+    padding-top: 25px;
+    width: 40%;
+    text-align: right;
+}
 @media (max-width: 1700px) {
     .step-container .step-separator {
         width: 99px;
@@ -277,11 +285,12 @@
 }
 
 .header_inputs {
-    width: 49%;
-}
+     width: 58%;
+ }
 
 .heade_template {
     width: 49%;
+    text-align: end;
 }
 
 .header_inputs h2 {
@@ -298,7 +307,7 @@
 .first_name {
     display: flex;
     flex-direction: column;
-    width: 49%;
+    width: 46%;
 }
 
 .name {
@@ -336,7 +345,7 @@
     height: 44px;
     border: 1px solid #C9C9C9;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 29px;
     font-size: 14px;
 }
 
@@ -390,11 +399,11 @@
 }
 .time_input {
     display: flex;
-    width: 49%;
+    width: 46%;
     justify-content: space-between;
 }
 .data_input {
-    width: 48%;
+    width: 46%;
 }
 /* The container */
 .container {
@@ -466,4 +475,176 @@
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
+}
+.the_company h3 {
+    color: #212529;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.the_company {
+    width: 90%;
+    margin: 90px auto;
+}
+.box1 {
+    border: 1px solid #ECECEC;
+    height: 400px;
+    width: 49%;
+    background-color: #F9F9F9;
+}
+.box2 {
+    border: 1px solid #ECECEC;
+    height: 400px;
+    width: 50%;
+}
+.search_job {
+    display: flex;
+}
+.job input {
+    width: 100%;
+    border: 1px solid #ECECEC;
+    height: 44px;
+    font-size: 14px;
+    padding-left: 20px;
+}
+.job {
+    width: 95%;
+    margin: 24px auto;
+    position: relative;
+}
+.job span {
+    position: absolute;
+    top: 13px;
+    right: 12px;
+    color: #212529;
+}
+.dropdown-menu {
+    min-width: 100%;
+    margin-top: 12px;
+}
+.dropdown-menu li {
+    list-style-type: initial;
+    color: #18358A;
+}
+.dropdown-menu p {
+    color: #212529;
+    font-size: 12px;
+}
+.dropdown-menu h4 {
+    font-size: 14px;
+    padding-left: 10px;
+}
+.preview p {
+    border: 1px solid #18358A;
+    color: #18358A;
+    font-size: 14px;
+    width: 176px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.preview {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.text_button {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 0 auto;
+    border-bottom: 1px solid #C9C9C9;
+    height: 74px;
+    align-items: center;
+}
+.text_button p {
+    width: 76%;
+    font-size: 14px;
+}
+.text_button button {
+    border: 1px solid #18358A;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    width: 100px;
+    height: 38px;
+    font-size: 16px;
+    color: #18358A;
+}
+.add_text {
+    min-height: 313px;
+    overflow: scroll;
+}
+.copyright {
+    width: 100%;
+    text-align: center;
+}
+.experience_page {
+    width: 90%;
+}
+@media (max-width: 1800px) {
+    .text_button {
+        height: auto;
+    }
+}
+@media (max-width: 1200px) {
+    text_button {
+        font-size: 12px;
+    }
+    .text_button button {
+        width: 66px;
+        font-size: 13px;
+    }
+    .text_button p {
+        font-size: 12px;
+    }
+}
+@media (max-width: 800px) {
+    .start_header {
+        flex-direction: column;
+    }
+    .header_inputs {
+        width: 100%;
+    }
+    .search_job {
+        flex-direction: column;
+    }
+    .box1 {
+        width: 100%;
+    }
+    .box2 {
+        width: 100%;
+    }
+    .text_button {
+        height: 74px;
+    }
+    .tips {
+        width: 100%;
+    }
+    .time_input {
+        width: 100%;
+    }
+}
+@media (max-width: 500px) {
+    .name {
+        flex-direction: column;
+    }
+    .time_input {
+        flex-direction: column;
+    }
+    .first_name {
+        width: 100%;
+    }
+    .data_input {
+        width: 100%;
+    }
+    .job input {
+        font-size: 10px;
+    }
+    .text_button {
+        height: auto;
+    }
+    .box1 {
+        height: auto;
+    }
 }
