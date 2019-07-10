@@ -12,8 +12,11 @@
 /*dashboard*/
 .active1 {
     background-color: #18358A!important;
-}
 
+}
+.active2 {
+    color: #18358A!important;
+}
 .dashboard_content {
     width: 65%;
     height: auto;
@@ -145,6 +148,7 @@
 .continue_right {
     background-color: #18358A;
     font-size: 16px;
+    border-radius: 3px;
 }
 
 .back_left p {
@@ -289,7 +293,7 @@
  }
 
 .heade_template {
-    width: 49%;
+    width: 40%;
     text-align: end;
 }
 
@@ -347,6 +351,7 @@
     width: 100%;
     margin-bottom: 29px;
     font-size: 14px;
+    border-radius: 4px;
 }
 
 .back_continue1 {
@@ -354,7 +359,6 @@
 }
 
 .cv_template {
-    width: 88%;
     height: 512px;
     border: 1px solid #ECECEC;
     display: flex;
@@ -487,7 +491,7 @@
 }
 .box1 {
     border: 1px solid #ECECEC;
-    height: 400px;
+    /*height: 400px;*/
     width: 49%;
     background-color: #F9F9F9;
 }
@@ -534,6 +538,7 @@
     padding-left: 10px;
 }
 .preview p {
+    border-radius: 4px;
     border: 1px solid #18358A;
     color: #18358A;
     font-size: 14px;
@@ -572,8 +577,8 @@
     color: #18358A;
 }
 .add_text {
-    min-height: 313px;
-    overflow: scroll;
+    height: 313px;
+    overflow: auto;
 }
 .copyright {
     width: 100%;
@@ -581,6 +586,23 @@
 }
 .experience_page {
     width: 90%;
+}
+.more_experience p {
+    border-radius: 4px;
+    border: 1px solid #18358A;
+    font-size: 14px;
+    color: #18358A;
+    width: 200px;
+    height: 38px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.more_experience {
+    margin-top: 60px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #C9C9C9;
 }
 @media (max-width: 1800px) {
     .text_button {
@@ -598,10 +620,16 @@
     .text_button p {
         font-size: 12px;
     }
+    .start_header {
+        width: 95%;
+    }
 }
 @media (max-width: 800px) {
     .start_header {
         flex-direction: column;
+    }
+    .heade_template {
+        width: 100%;
     }
     .header_inputs {
         width: 100%;
@@ -624,10 +652,23 @@
     .time_input {
         width: 100%;
     }
+    .second_block {
+        flex-direction: column;
+    }
+
 }
 @media (max-width: 500px) {
     .name {
         flex-direction: column;
+    }
+    .sity_input {
+        width: 100%;
+    }
+    .address_sity {
+        flex-direction: column;
+    }
+    .state_zip {
+        width: 100%;
     }
     .time_input {
         flex-direction: column;
@@ -643,8 +684,86 @@
     }
     .text_button {
         height: auto;
+        margin-bottom: 10px;
     }
     .box1 {
         height: auto;
+    }
+}
+
+/*education*/
+.dropdown-toggle::after {
+    display: none;
+}
+.address_input select {
+    height: 44px;
+    padding-left: 10px;
+    color: #C9C9C9;
+    border-radius: 4px;
+}
+.study {
+    display: flex;
+    flex-direction: column;
+    width: 69%;
+    position: relative;
+}
+.graduation_year {
+    display: flex;
+    flex-direction: column;
+    width: 26%;
+    position: relative;
+}
+.graduation_year select {
+    height: 44px;
+    border-radius: 4px;
+    padding-left: 10px;
+}
+.graduation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.add_description p {
+    color: #18358A;
+}
+.add_description svg {
+    vertical-align: sub;
+    margin-right: 6px;
+}
+.more_experience svg {
+    margin-right: 6px;
+}
+.second_block {
+    display: flex;
+    justify-content: space-between;
+}
+.preview_skills {
+    margin: unset;
+    width: unset;
+}
+.tips_box {
+    flex-direction: column;
+    width: 50%;
+
+}
+.tips_content {
+    width: 100%;
+}
+@media (max-width: 1734px) {
+    .graduation {
+        flex-direction: column;
+    }
+    .study {
+        width: 100%;
+    }
+    .graduation_year {
+        width: 100%;
+    }
+}
+@media(max-width: 800px) {
+    .tips_box {
+        display: flex;
+        width: 100%;
+        flex-direction: unset;
     }
 }
