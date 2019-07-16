@@ -345,10 +345,12 @@ function cl2(){
         "                                <div class=\"graduation_year\">\n" +
         "                                    <label>Graduation Year</label>\n" +
         "                                    <select>\n" +
-        "                                        <option value=\"\">Select</option>\n" +
-        "                                        <option value=\"\">...</option>\n" +
-        "                                        <option value=\"\">.....</option>\n" +
-        "                                        <option value=\"\">......</option>\n" +
+        "                                        <option value=\"\">1970</option>\n" +
+        "                                        <option value=\"\">1971</option>\n" +
+        "                                        <option value=\"\">1972</option>\n" +
+        "                                        <option value=\"\">1973</option>\n" +
+        "                                        <option value=\"\">1974</option>\n" +
+
         "                                    </select>\n" +
         "                                </div>\n" +
         "                            </div>\n" +
@@ -362,34 +364,7 @@ function cl2(){
         "                        </div>\n" +
         "                    </div>\n" +
         "                </div>\n" +
-        "                <div class=\"tips\">\n" +
-        "\n" +
-        "                    <div class=\"dropdown show\">\n" +
-        "                        <div class=\"customer btn dropdown-toggle\" data-toggle=\"dropdown\" aria-expanded=\"true\">\n" +
-        "                            <img src=\"img/customer-service.png\">\n" +
-        "                        </div>\n" +
-        "                        <div class=\"dropdown-menu dropdown-menu-right show\">\n" +
-        "                            <h4>TIPS</h4>\n" +
-        "                            <ul>\n" +
-        "                                <li>\n" +
-        "                                    <p>Include up to 10 years of recent work experience,\n" +
-        "                                        beginning with your current or most recent employer.</p>\n" +
-        "                                </li>\n" +
-        "                                <li>\n" +
-        "                                    <p>Use bullets to list your major accomplishments and experience\n" +
-        "                                        so employers can easily scan your resume.</p>\n" +
-        "                                </li>\n" +
-        "                                <li>\n" +
-        "                                    <p>If you have relevant work experience from more than 10 years ago,\n" +
-        "                                        we recommend adding a separate section called Previous Work Experience.</p>\n" +
-        "                                </li>\n" +
-        "                            </ul>\n" +
-        "                        </div>\n" +
-        "\n" +
-        "\n" +
-        "\n" +
-        "                    </div>\n" +
-        "                </div>\n" +
+        "               \n" +
         "            </div>\n" +
         "            <div class=\"preview\" >\n" +
         "                <p>\n" +

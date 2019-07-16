@@ -522,7 +522,8 @@
     width: 50%;
 }
 .cke_reset{
-    max-height: 327px !important;
+    max-height: 327px ;
+    min-height: 327px;
 }
 .search_job {
     display: flex;
@@ -629,7 +630,9 @@
     padding-bottom: 30px;
     border-bottom: 1px solid #C9C9C9;
 }
-
+.graduation_year label{
+    white-space: nowrap;
+}
 .experience_box {
     display: flex;
     justify-content: space-between;
