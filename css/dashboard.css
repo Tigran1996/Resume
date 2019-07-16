@@ -289,7 +289,12 @@
 }
 
 .header_inputs {
-     width: 58%;
+    margin-right: 10px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
  }
 
 .heade_template {
@@ -359,11 +364,19 @@
 }
 
 .cv_template {
-    height: 512px;
+    padding: 10px;
     border: 1px solid #ECECEC;
     display: flex;
+    flex-direction: column;
+    height: auto;
+    max-height: 600px;
+    max-width: unset;
+    width: 50%;
 }
-
+.cv-scroll{
+    max-height: 500px;
+    overflow-y: auto;
+}
 .cv_template h3 {
     color: #0c5460;
 }
@@ -438,7 +451,7 @@
 /* Create a custom checkbox */
 .checkmark {
     position: absolute;
-    top: 0;
+    top: 9px;
     left: 0;
     height: 16px;
     width: 16px;
@@ -488,17 +501,28 @@
 .the_company {
     width: 90%;
     margin: 90px auto;
+
+}
+.flex{
+    display: flex;
+}
+.fa-check{
+    color: #fff;
 }
 .box1 {
     border: 1px solid #ECECEC;
     /*height: 400px;*/
     width: 49%;
     background-color: #F9F9F9;
+    max-height: 400px;
 }
 .box2 {
     border: 1px solid #ECECEC;
-    height: 400px;
+    max-height: 400px;
     width: 50%;
+}
+.cke_reset{
+    max-height: 327px !important;
 }
 .search_job {
     display: flex;
@@ -600,10 +624,24 @@
     justify-content: center;
 }
 .more_experience {
+    cursor: pointer;
     margin-top: 60px;
     padding-bottom: 30px;
     border-bottom: 1px solid #C9C9C9;
 }
+
+.experience_box {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+.experience_preview {
+    width: unset;
+    margin: 0;
+}
+
+
 @media (max-width: 1800px) {
     .text_button {
         height: auto;

@@ -628,6 +628,175 @@ body {
     color: #ffffff;
     border: none;
 }
+main{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn-blue{
+    background: #18358a;
+    color: #fff;
+    width: 100%;
+    max-width: 167px;
+    margin-top: 10px;
+    color: #fff;
+}
+.btn-blue a{
+    color: #fff;
+    text-decoration: none;
+}
+.btn-blue a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.das_inp button{
+    border-radius: 0 8px 8px 0;
+    margin: 0;
+}
+.das_inp{
+    display: flex;
+    justify-content: center;
+}
+.das_inp input[type="text"] {
+    width: 65%;
+    padding: 10px 5px;
+    border-radius: 8px 0px 0px 8px;
+    border: 1px solid gainsboro;
+}
+.das_check{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+.check label{
+    margin: 0;
+    margin-left: 20px;
+
+}
+.check{
+    margin-bottom: 20px;
+}
+.jstfy{
+    min-height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* The container */
+.containera {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.containera input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.containera:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.containera input:checked ~ .checkmark {
+    top: 9px;
+    background-color: #18358a;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.containera input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.containera .checkmark:after {
+    left: 6px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+/*example1*/
+.example1 {
+    width: 100%;
+    max-width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+.example1 hr {
+    border-top: dotted 2px #000000 !important;
+    width: 100%;
+    background: unset !important;
+    /*text-decoration: underline;*/
+}
+.resum_main{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.resum_main span{
+    color: #005cbf;
+    font-weight: 500;
+
+}
+.example1 h2 {
+    margin-right: 5px;
+    color: #005cbf;
+
+}
+.sec_resum {
+    min-height: 170px;
+}
+.name_res {
+    display: flex;
+}
+
+
+/*example1 end*/
+
+
+
+
 @media (max-width: 1000px) {
     .info_panel {
         width: 97%;
