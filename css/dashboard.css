@@ -364,6 +364,7 @@
 }
 
 .cv_template {
+
     padding: 10px;
     border: 1px solid #ECECEC;
     display: flex;
@@ -523,10 +524,11 @@
 }
 .cke_reset{
     max-height: 327px ;
-    min-height: 327px;
+    /*min-height: 327px;*/
 }
 .search_job {
     display: flex;
+    min-height: 400px;
 }
 .job input {
     width: 100%;
@@ -587,6 +589,7 @@
     border-bottom: 1px solid #C9C9C9;
     height: 74px;
     align-items: center;
+    padding: 10px;
 }
 .text_button p {
     width: 76%;
@@ -602,8 +605,20 @@
     color: #18358A;
 }
 .add_text {
-    height: 313px;
-    overflow: auto;
+    max-height: 294px;
+    overflow-y: scroll;
+}
+.hidden{
+    display: none;
+}
+.textarea_desc textarea {
+    padding: 10px;
+    padding-left: 10px;
+    border: 1px solid #C9C9C9;
+    width: 100%;
+    margin-bottom: 29px;
+    font-size: 14px;
+    border-radius: 4px;
 }
 .copyright {
     width: 100%;
@@ -643,7 +658,31 @@
     width: unset;
     margin: 0;
 }
-
+/*websites,profiles*/
+.websites .second_block{
+    flex-direction: column;
+}
+.url input{
+    width: 48%;
+    padding: 10px 5px;
+    border-radius: 8px;
+    border: 1px solid gainsboro;
+}
+.url {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 1000px;
+    flex-wrap: wrap;
+}
+.url div{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
 @media (max-width: 1800px) {
     .text_button {
@@ -767,9 +806,20 @@
 .add_description p {
     color: #18358A;
 }
+.add_description{
+    cursor: pointer;
+}
 .add_description svg {
     vertical-align: sub;
     margin-right: 6px;
+}
+#plus{
+    font-size: 20px;
+}
+#minus{
+    font-size: 20px;
+
+    display: none;
 }
 .more_experience svg {
     margin-right: 6px;
@@ -777,6 +827,7 @@
 .second_block {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 .preview_skills {
     margin: unset;

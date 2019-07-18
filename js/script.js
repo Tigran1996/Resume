@@ -205,8 +205,8 @@ function cl1(index) {
         "                            </div>\n" +
         "                        </div>\n" +
         "                    </form>\n" +
-        "                    <label class=\"container\">I currently work here\n" +
-        "                        <input type=\"checkbox\">\n" +
+        "                    <label class=\"containera\" for=\"ch\""+index+">I currently work here\n" +
+        "                        <input type=\"checkbox\" id=\"ch\""+index+">\n" +
         "                        <span class=\"checkmark\"></span>\n" +
         "                    </label>\n" +
         "\n" +
@@ -378,6 +378,36 @@ function cl2(){
 $("#clone_aparat2").on("click",function () {
     $('.clon_here').append(cl2());
 })
+
+
+
+function cl3(){
+    return "<div class=\"the_company websites\">\n" +
+        "                <div class=\"url\">\n" +
+        "                    <div class=\"url_top\">\n" +
+        "                        <input type=\"text\" placeholder=\"Personal link\">\n" +
+        "                        <input type=\"text\" placeholder=\"Personal link\">\n" +
+        "                    </div>\n" +
+        "                    <div class=\"url_bottom\">\n" +
+        "                        <input type=\"text\" placeholder=\"Personal link\">\n" +
+        "                        <input type=\"text\" placeholder=\"Personal link\">\n" +
+        "                    </div>\n" +
+        "                </div>\n" +
+        "            </div>";
+}
+$("#clone_aparat3").on("click",function () {
+    $('.clon_here').append(cl3());
+})
+
+$("#add_desc").on("click",function () {
+    $("#add_textarea").toggleClass("hidden");
+})
 CKEDITOR.replace('textarea1', editor_config );
 
 
+$(document).ready(function () {
+    $(".text_button button").on("click",function () {
+        var add = $(this).siblings("p").html();
+        CKEDITOR.instances['textarea1'].insertText(add);
+    })
+})

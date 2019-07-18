@@ -721,6 +721,7 @@ main{
     text-decoration: none;
 }
 
+
 @media (max-width: 993px) {
     .main-content .owl-theme .custom-nav {
         position: absolute;
