@@ -410,4 +410,206 @@ $(document).ready(function () {
         var add = $(this).siblings("p").html();
         CKEDITOR.instances['textarea1'].insertText(add);
     })
+
+
+
+    $(".red_item").hover(
+        function() {
+        // console.log("s")
+        $(this).addClass("red_active");
+        $(this).children(".red_tools").addClass("red_tools_active");
+    },function() {
+            $(this).removeClass("red_active");
+            $(this).children(".red_tools").removeClass("red_tools_active");
+    })
+
+
+
+
+    $(".tool2").on("mousedown",function () {
+        $(this).parents("#sortable").sortable();
+        $(this).parents("#sortable").disableSelection();
+    })
+    $(".tool3").on("click",function () {
+        $(this).parents(".red_item").remove();
+    })
+
+
+    //select accordeon
+    $(function() {
+        var Accordion = function(el, multiple) {
+            this.el = el || {};
+            this.multiple = multiple || false;
+
+            // Variables privadas
+            var links = this.el.find('.link');
+            // Evento
+            links.on('click', {el: this.el, multiple: this.multiple}, this.dropdown)
+        }
+
+        Accordion.prototype.dropdown = function(e) {
+            var $el = e.data.el;
+            $this = $(this),
+                $next = $this.next();
+
+            $next.slideToggle();
+            $this.parent().toggleClass('open');
+
+            if (!e.data.multiple) {
+                $el.find('.submenu').not($next).slideUp().parent().removeClass('open');
+            };
+        }
+
+        var accordion = new Accordion($('#accordion'), false);
+    });
+
+
+//    range fonts
+    $('#range-value').html($('#input-range').attr('value'));
+    $('#input-range').on('input', function(){
+        $('#range-value').html(this.value + "px");
+    });
+//
+    $('#range-value2').html($('#input-range2').attr('value'));
+    $('#input-range2').on('input', function(){
+        $('#range-value2').html(this.value + "px");
+    });
+//
+    $('#range-value3').html($('#input-range3').attr('value'));
+    $('#input-range3').on('input', function(){
+        $('#range-value3').html(this.value + "px");
+    });
+//
+    $('#range-value4').html($('#input-range4').attr('value'));
+    $('#input-range4').on('input', function(){
+        $('#range-value4').html(this.value + "px");
+    });
+//
+    $('#range-value5').html($('#input-range5').attr('value'));
+    $('#input-range5').on('input', function(){
+        $('#range-value5').html(this.value + "px");
+    });
+//
+    $('#range-value6').html($('#input-range6').attr('value'));
+    $('#input-range6').on('input', function(){
+        $('#range-value6').html(this.value + "px");
+    });
+//
+    $('#range-value7').html($('#input-range7').attr('value'));
+    $('#input-range7').on('input', function(){
+        $('#range-value7').html(this.value + "px");
+    });
+//
+    $('#range-value8').html($('#input-range8').attr('value'));
+    $('#input-range8').on('input', function(){
+        $('#range-value8').html(this.value + "px");
+    });
+//
+    $('#range-value1').html($('#input-range1').attr('value'));
+    $('#input-range1').on('input', function(){
+        $('#range-value1').html(this.value + "px");
+    });
+
+//    prewiew
+
+    $(".preview p ").on("click",function () {
+        var mod = "<!-- Modal -->\n" +
+            "<div class=\"modal fade\" id=\"exampleModalCenter\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"exampleModalCenterTitle\" aria-hidden=\"true\">\n" +
+            "  <div class=\"modal-dialog modal-dialog-centered\" role=\"document\">\n" +
+            "    <div class=\"modal-content\">\n" +
+            "      <div class=\"modal-body\">\n" +
+            "        <div class=\" cv_template example1\">\n" +
+            "           <div>\n" +
+            "                <div class=\"head1\">\n" +
+            "                    <div class=\"name_res\">\n" +
+            "                        <h2 id=\"first_text2\">James </h2>\n" +
+            "                        <h2 id=\"last_name2\">Miller</h2>\n" +
+            "                    </div>\n" +
+            "\n" +
+            "                   <p>\n" +
+            "                       <span class=\"address\" id=\"address_person\">44 Shirley Ave,</span>\n" +
+            "                       <span id=\"sity_sity\">New York</span>\n" +
+            "                       <span id=\"state\">Arizona</span>\n" +
+            "                       <span class=\"mail_zip\" id=\"zip_zip\">0465/55,</span>\n" +
+            "                       <span class=\"telephone\" id=\"phone_phone\"> +465555555668,</span>\n" +
+            "                       <span class=\"mail\" id=\"email_email\">jamask@mail.ru</span>\n" +
+            "                   </p>\n" +
+            "\n" +
+            "                </div>\n" +
+            "                <div class=\"resum\">\n" +
+            "                   <div class=\"sec_resum\">\n" +
+            "                       <h4>Professional Summary</h4>\n" +
+            "                       <hr>\n" +
+            "\n" +
+            "\n" +
+            "                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos eum, facere, fugiat in maxime mollitia odio perferendis possimus provident quisquam reprehenderit sit. Et in laudantium magni odit suscipit totam vitae?</p>\n" +
+            "\n" +
+            "                   </div>\n" +
+            "                   <div class=\"sec_resum\">\n" +
+            "                       <h4>Employment history</h4>\n" +
+            "                       <hr>\n" +
+            "\n" +
+            "                       <div class=\"resum_main\">\n" +
+            "                           <div class=\"left_resum  \">\n" +
+            "                               <p class=\"font-weight-bold\">It Technician</p>\n" +
+            "                               <span>Oct 2015-apr 2016</span>\n" +
+            "                               <p>Operate and maintain information systems</p>\n" +
+            "                               <p>Facilitiang system utilization</p>\n" +
+            "                           </div>\n" +
+            "                           <div class=\"right_resum\">\n" +
+            "                               <p>bingham</p>\n" +
+            "                           </div>\n" +
+            "                       </div>\n" +
+            "\n" +
+            "\n" +
+            "                   </div>\n" +
+            "                   <div class=\"sec_resum\">\n" +
+            "                       <h4>Education</h4>\n" +
+            "                       <hr>\n" +
+            "\n" +
+            "                       <div class=\"resum_main\">\n" +
+            "                           <div class=\"left_resum  \">\n" +
+            "                               <p class=\"font-weight-bold\">It Technician</p>\n" +
+            "                               <span>Oct 2015-apr 2016</span>\n" +
+            "                               <p>Operate and maintain information systems</p>\n" +
+            "                               <p>Facilitiang system utilization</p>\n" +
+            "                           </div>\n" +
+            "                           <div class=\"right_resum\">\n" +
+            "                               <p>bingham</p>\n" +
+            "                           </div>\n" +
+            "                       </div>\n" +
+            "\n" +
+            "                   </div>\n" +
+            "                   <div class=\"sec_resum\">\n" +
+            "                       <h4>Honors</h4>\n" +
+            "                       <hr>\n" +
+            "                       <div class=\"resum_main\">\n" +
+            "                           <div class=\"left_resum  \">\n" +
+            "                               <p class=\"font-weight-bold\">It Technician</p>\n" +
+            "                               <span>Oct 2015-apr 2016</span>\n" +
+            "                               <p>Operate and maintain information systems</p>\n" +
+            "                               <p>Facilitiang system utilization</p>\n" +
+            "                           </div>\n" +
+            "                           <div class=\"right_resum\">\n" +
+            "                               <p>bingham</p>\n" +
+            "\n" +
+            "                           </div>\n" +
+            "                       </div>\n" +
+            "\n" +
+            "\n" +
+            "                   </div>\n" +
+            "\n" +
+            "                </div>\n" +
+            "\n" +
+            "                </div>\n" +
+            "           </div>" +
+            "      </div>\n" +
+            "    </div>\n" +
+            "  </div>\n" +
+            "</div>";
+        $(this).parents(".preview").append(mod);
+
+    })
 })
+
+
