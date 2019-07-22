@@ -226,7 +226,7 @@
     }
 
     .step-container .step-separator {
-        width: 48px;
+        width: 48px !important;
     }
 
     .text_resume h3 {
@@ -353,6 +353,7 @@
     padding-left: 10px;
     height: 44px;
     border: 1px solid #C9C9C9;
+    color: rgba(33, 37, 41, 0.5098039215686274);
     width: 100%;
     margin-bottom: 29px;
     font-size: 14px;
@@ -1311,13 +1312,135 @@ button.btn.btn_tool {
     max-width: unset;
     width: 100%;
 }
+/*Cover steps*/
+
+.cover_step  .step-separator{
+    width: 350px;
+}
+.cover_step  .d-inline-block:nth-child(1) .step-separator:nth-child(1){
+    width: 150px;
+}
+.cover_step  .d-inline-block:nth-child(1) .steps_number{
+    text-align: start;
+    padding-left: 100px;
+}
+.cover_step  .d-inline-block:nth-last-child(1) .step-separator{
+    width: 150px;
+}
+.cover_step  .d-inline-block:nth-last-child(1) .steps_number {
+    left: -32px;
+}
+.cover_step .d-inline-block:nth-child(1){
+    text-align: center;
+}
+.cover_step{
+    margin-bottom: 4%;
+}
+.clon {
+    margin-bottom: 7%;
+}
+.Cover_content .study{
+    width: 100%;
+}
+.skills_dont_job {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    text-decoration: underline;
+}
+.start_body {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: flex-start;
+}
+.start_body button.btn.btn_tool {
+    margin: 5px;
+    background: #fff;
+    border: 1px solid #000;
+    padding: 8px 20px;
+    color: #000;
+    font-weight: 600;
+    width: 24%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.btn_tool_active{
+    box-shadow: none !important;
+    border: 1px solid #2D64AC !important;
+    color: #2D64AC !important;
+
+}
+.start_body button .fa-check{
+    color: #2D64AC;
+    position: relative;
+    left: 77px;
+}
 
 
+.step_four #slider label {
+    position: absolute;
+    width: 20px;
+    margin-left: -10px;
+    text-align: center;
+    margin-top: 33px;
+    padding: 0;
+    font-weight: 600;
+}
 
+/* below is not necessary, just for style */
+.step_four #slider {
+    width: 100%;
+    margin: 3em auto;
+}
+.step_four .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{
+    background: #2D64AC !important;
+}
 
+.step_five .btn_tool{
+    width: 40%;
+    margin: 10px;
+}
+.step_five .study{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: center;
+}
+.step_six .fa-check{
+    color: #2D64AC;
+    width: 100%;
+    text-align: right;
+    padding: 10px;
 
-
-
+}
+.step_six .str_button{
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 21px;
+    height: 118px;
+    max-width: 281px;
+    white-space: normal;
+    font-weight: 600;
+    width: 24%;
+    margin: 5px;
+}
+.str_btn_head {
+    border-bottom: 1px solid gainsboro;
+    width: 100%;
+}
+.step_seven .study{
+    width: 25%;
+    margin-right: 20px;
+}
+.start_footer {
+    width: 90%;
+    margin: 0 auto;
+}
 
 
 
