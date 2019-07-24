@@ -279,7 +279,27 @@
 
 
 /*experience*/
-
+.rev_red_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.rew_position{
+    display: flex;
+    align-items: center;
+}
+.rew_position h5
+.rew_sort_li_1 {
+    border: 1px solid #24c;
+    padding: 3px 8px;
+    color: #24c;
+    width: 5%;
+}
+.rew_sort_li_2 {
+    width: 30%;
+}
 
 .start_header {
     display: flex;
@@ -866,6 +886,7 @@
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
+    flex-direction: column;
 }
 .red_item {
     padding: 10px 15px;
@@ -1441,7 +1462,43 @@ button.btn.btn_tool {
     width: 90%;
     margin: 0 auto;
 }
+/*cover template redaktor*/
+.red_head_cover {
+    display: flex;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.red_head_cover p:after{
+    content:"/";
+    color: #000;
+    margin: 0px 5px ;
+}
+.red_head_cover p:nth-last-child(1):after{
+    content:"";
 
+}
+.red_tools2_tool p{
+    color: #2D64AC;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.cover_redaktor .back_continue1 {
+    width: 90%;
+}
+.cover_redaktor .dropdown-menu.show {
+    padding: 37px;
+    display: block;
+}
+.cover_redaktor .start_header{
+    padding: 31px 0px;
+}
+@media (min-width: 576px) {
+    .cover_redaktor .modal-dialog {
+        max-width: 1200px;
+        margin: 1.75rem auto;
+    }
+
+}
 
 
 

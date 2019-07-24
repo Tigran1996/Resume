@@ -2,15 +2,16 @@
 <html>
 <head>
     <meta charset="utf-8">
+    <script src="https://cdn.ckeditor.com/4.12.1/standard/ckeditor.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Template Redaktor</title>
+    <title>Cover Template Redaktor</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css"
           integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-<!--    <link rel="stylesheet" href="css/owl.carousel.min.css">-->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/Lcss.css">
     <link rel="stylesheet" href="css/dashboard.css">
     <link rel="stylesheet" href="css/jquery-ui.min.css">
@@ -32,22 +33,125 @@
     </div>
 </div>
 <main>
-    <section class=" redaktor_section">
+    <section class=" redaktor_section cover_redaktor">
         <div class="row red_row">
             <div class="col-sm-12 col-lg-9 red_left_side">
                 <div class="red_red">
-                    <a href="#"><p>Resume name:<span> Resume 8</span></p><img src="img/pencil-edit-button.png" alt=""></a>
+                    <a href="#"><p>Cover letter name:<span> Resume 8</span></p><img src="img/pencil-edit-button.png" alt=""></a>
                 </div>
-                <div class="red_head">
-                    <h2>Heading</h2>
+                <div class="red_head" data-toggle="modal" data-target="#exampleModalCenter">
+                    <h2>Name & Contacts</h2>
+                    <div class="red_head_cover">
+                        <p>First name</p>
+                        <p>Last name</p>
+                        <p>Street Address</p>
+                        <p>City</p>
+                        <p>State</p>
+                        <p>Zip Codeate</p>
+                        <p>Email</p>
+                        <p>Phone</p>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="start_header ">
+                                <div class="header_inputs ">
+                                    <h2>Let’s start with your header</h2>
+                                    <p>Include your full name and at least one way for employers to reach you.</p>
+                                    <form class="form_header">
+                                        <div class="name">
+                                            <div class="first_name">
+                                                <label>First name</label>
+                                                <input type="text" id="first_inp" placeholder="Dorothy">
+                                            </div>
+                                            <div class="first_name">
+                                                <label>Last name</label>
+                                                <input type="text" id="last_input" placeholder="Hloomberg">
+                                            </div>
+                                        </div>
+                                        <div class="address_input">
+                                            <label>Street Address</label>
+                                            <input type="text" id="street_address" placeholder="21756 Osten str., h. 50">
+                                        </div>
+                                        <div class="address_sity">
+                                            <div class="sity_input">
+                                                <label>City</label>
+                                                <input type="text" id="city_address" placeholder="Yerevan">
+                                            </div>
+                                            <div class="state_zip">
+                                                <div class="zip">
+                                                    <label>State</label>
+                                                    <input type="number" id="state_address" placeholder="ER">
+                                                </div>
+                                                <div class="zip">
+                                                    <label>Zip Code</label>
+                                                    <input type="email" id="zip_code" placeholder="0082">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="name">
+                                            <div class="first_name">
+                                                <label>Email </label>
+                                                <input type="email" id="email_address" placeholder="DorothyHloomberg@gmail.com">
+                                            </div>
+                                            <div class="first_name">
+                                                <label>Phone </label>
+                                                <input type="number" id="phone" placeholder="+374 44 44 44 44">
+                                            </div>
+                                        </div>
+
+
+                                    </form>
+                                </div>
+                                <div class="tips">
+
+                                    <div class="dropdown show">
+                                        <div class="customer btn dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+                                            <img src="img/customer-service.png">
+                                        </div>
+                                        <div class="dropdown-menu dropdown-menu-right show">
+                                            <h4>TIPS</h4>
+                                            <ul>
+                                                <li>
+                                                    <p>Include up to 10 years of recent work experience,
+                                                        beginning with your current or most recent employer.</p>
+                                                </li>
+                                                <li>
+                                                    <p>Use bullets to list your major accomplishments and experience
+                                                        so employers can easily scan your resume.</p>
+                                                </li>
+                                                <li>
+                                                    <p>If you have relevant work experience from more than 10 years ago,
+                                                        we recommend adding a separate section called Previous Work Experience.</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="back_continue back_continue1">
+                                <a href="#" class="back_left"  class="close" data-dismiss="modal" aria-label="Close">
+                                    <p><span class="fas fa-long-arrow-alt-left"></span> Cancel</p>
+                                </a>
+                                <a href="#" class="continue_right">
+                                    <p> Continue <span class="fas fa-long-arrow-alt-right"></span></p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <ul id="sortable">
 
-
                     <li class="red_item ui-state-default">
 
-                        <h5>Additional Information</h5>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                        <h5>Date Section</h5>
+                        <p>01.10.31</p>
                         <div class="red_tools ">
                             <div class="tool1">
                                 <img src="img/pencil-edit-button.png" alt="">
@@ -288,28 +392,45 @@
                         <button class="btn btn_tool"><a href="download.html"><i class="fas fa-download"></i>Download</a></button>
                     </div>
                     <div class="red_tools2_tool">
-                        <h5>Resume Sections</h5>
+                        <h5>Cover Letter Sections</h5>
 
                         <ul>
                             <li>
-                                <a href="#">Heading</a>
+                                <p data-toggle="modal" data-target="#exampleModalCenter">First name</p>
                             </li>
                             <li>
-                                <a href="#">Additional Information</a>
+
+                                <p data-toggle="modal" data-target="#exampleModalCenter">Last name</p>
                             </li>
                             <li>
-                                <a href="#">Skills</a>
+
+                                <p data-toggle="modal" data-target="#exampleModalCenter">Street Address</p>
                             </li>
                             <li>
-                                <a href="#">Experience</a>
+                                <p data-toggle="modal" data-target="#exampleModalCenter">City</p>
                             </li>
+                            <li>
+                                <p data-toggle="modal" data-target="#exampleModalCenter">State</p>
+
+                            </li>
+                            <li>
+                                <p data-toggle="modal" data-target="#exampleModalCenter">Zip Codeate</p>
+                            </li>
+                            <li>
+                                <p data-toggle="modal" data-target="#exampleModalCenter">Email</p>
+
+                            </li>
+                            <li>
+                                <p data-toggle="modal" data-target="#exampleModalCenter">Phone</p>
+                            </li>
+
 
                         </ul>
                         <button class="btn btn_tool"><i class="fas fa-plus"></i>Add a section</button>
 
                     </div>
 
-                    </div>
+                </div>
             </div>
 
         </div>
@@ -327,7 +448,6 @@
     </div>
 
 </footer>
-<!--<script src="https://cdn.ckeditor.com/4.12.1/standard/ckeditor.js"></script>-->
 
 <script src="https://cdn.rawgit.com/PascaleBeier/bootstrap-validate/v2.2.0/dist/bootstrap-validate.js"></script>
 
@@ -336,7 +456,7 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="js/bootstrap.min.js"></script>
-<!--<script src="js/owl.carousel.min.js"></script>-->
+<script src="js/owl.carousel.min.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>
