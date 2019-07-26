@@ -1,4 +1,48 @@
 $(document).ready(function () {
+    //validation
+
+
+    $('#SubmitBtn').on('click',function (e) {
+        e.preventDefault();
+        if ($("#MyForm")[0].checkValidity()  == true){
+            location.href = "experience.html"
+        }
+        else{
+            $('#edBtn').trigger('click')
+
+        }
+
+    });
+
+
+    $('#SubmitBtn1').on('click',function (e) {
+        e.preventDefault();
+        if ($("#MyForm1")[0].checkValidity()  == true){
+            location.href = "edu_summary.html"
+        }
+        else{
+            $('#edBtn').trigger('click')
+
+        }
+
+    });
+
+
+    $('#SubmitBtn2').on('click',function (e) {
+        e.preventDefault();
+        if ($("#MyForm")[0].checkValidity()  == true){
+            location.href = "review-experience.html"
+        }
+        else{
+            $('#edBtn').trigger('click')
+
+        }
+
+    });
+
+
+
+    //validation end
     $(".Login1").on("click",function () {
         $("#login_form").removeClass("d-none");
         $("#registration_form").addClass("d-none");
@@ -50,7 +94,7 @@ $(document).ready(function () {
 
 
 $(document).ready(function () {
-    window.globalIndex = 2;
+    window.globalIndex = 1;
     $('#owl1').owlCarousel({
         items: 3,
         loop: true,
@@ -263,7 +307,7 @@ function cl1(index) {
         "            </div>\n" +
         "        </div>\n" +
         "        <div class=\"preview\">\n" +
-        "            <p>\n" +
+        "            <p data-toggle=\"modal\" data-target=\"#exampleModalCenter\">\n" +
         "                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\">\n" +
         "                    <defs><style>.a{fill:#18358a;}</style></defs><g transform=\"translate(10.554 9.374)\">\n" +
         "                    <path class=\"a\" d=\"M278.4,247.557a3.532,3.532,0,0,0-.376-4.549,3.641,3.641,0,0,0-5.009,0,3.536,3.536,0,0,0,4.549,5.384l3.024,2.953.835-.835Z\" transform=\"translate(-271.979 -242.01)\"/>\n" +
@@ -282,19 +326,19 @@ function cl1(index) {
         "                    <div class=\"add_text\">\n" +
         "                        <div class=\"text_button\">\n" +
         "                            <p>Completed all company insurance renewals including property, Workers' Compensation, general liability, cargo, aviation and K & R documents.</p>\n" +
-        "                            <button>Add</button>\n" +
+        "                            <button type=\"button\" data-id=\"123\">Add</button>\n" +
         "                        </div>\n" +
         "                        <div class=\"text_button\">\n" +
         "                            <p>Led [type] team in delivery of [type] project requiring close cooperation among members to share information and develop solutions to meet broad array of deliverables.</p>\n" +
-        "                            <button>Add</button>\n" +
+        "                            <button type=\"button\" data-id=\"123\">Add</button>\n" +
         "                        </div>\n" +
         "                        <div class=\"text_button\">\n" +
         "                            <p>Prepared departmental contracts for attorney approval.</p>\n" +
-        "                            <button>Add</button>\n" +
+        "                            <button type=\"button\" data-id=\"123\">Add</button>\n" +
         "                        </div>\n" +
         "                        <div class=\"text_button\">\n" +
         "                            <p>Installed, tested and serviced alarm systems, ensuring that they functioned correctly.</p>\n" +
-        "                            <button>Add</button>\n" +
+        "                            <button type=\"button\" data-id=\"123\">Add</button>\n" +
         "                        </div>\n" +
         "\n" +
         "                    </div>\n" +
@@ -303,7 +347,7 @@ function cl1(index) {
         "                </div>\n" +
         "                <div class=\"box2\">\n" +
         "                    <div id=\"editor-container\">\n" +
-        "                  <textarea cols=\"80\" rows=\"100\" id=\"textarea"+index+"\">\n" +
+        "                  <textarea cols=\"80\" rows=\"100\" id=\"textarea"+index+"\" data-id=\"123\">\n" +
         "                 Type in your responsibilities, achievements and job details. Need help? Use the pre-written examples by clicking the Add button on the left side.\n" +
         "                </textarea>\n" +
         "\n" +
@@ -318,12 +362,21 @@ function cl1(index) {
 
 
 $("#clone_aparat").on("click",function () {
-    console.log(window);
     window.globalIndex++;
     const index = window.globalIndex;
     $('.clon_here').append(cl1(index));
     CKEDITOR.replace('textarea'+index, editor_config );
-})
+
+});
+$("#add_desc").on("click",function () {
+    $("#add_textarea").toggleClass("hidden");
+});
+CKEDITOR.replace('textarea1', editor_config );
+$(document).on("click",".text_button button",function () {
+    var add = $(this).siblings("p").html();
+        CKEDITOR.instances['textarea'+window.globalIndex].insertText(add);
+});
+
 
 
 function cl2(){
@@ -373,7 +426,7 @@ function cl2(){
         "                            </div>\n" +
         "                        </form>\n" +
         "                        <div class=\"add_description\">\n" +
-        "                            <p>\n" +
+        "                            <p data-toggle=\"modal\" data-target=\"#exampleModalCenter\">\n" +
         "                                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\">\n" +
         "                                    <defs><style>.a{fill:#18358a;}</style>\n" +
         "                                    </defs><path class=\"a\" d=\"M16,7.619H8.381V0H7.619V7.619H0v.762H7.619V16h.762V8.381H16Z\"/></svg>\n" +
@@ -384,7 +437,7 @@ function cl2(){
         "               \n" +
         "            </div>\n" +
         "            <div class=\"preview\" >\n" +
-        "                <p>\n" +
+        "                <p data-toggle=\"modal\" data-target=\"#exampleModalCenter\">\n" +
         "                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\">\n" +
         "                        <defs><style>.a{fill:#18358a;}</style></defs><g transform=\"translate(10.554 9.374)\">\n" +
         "                        <path class=\"a\" d=\"M278.4,247.557a3.532,3.532,0,0,0-.376-4.549,3.641,3.641,0,0,0-5.009,0,3.536,3.536,0,0,0,4.549,5.384l3.024,2.953.835-.835Z\" transform=\"translate(-271.979 -242.01)\"/>\n" +
@@ -416,17 +469,11 @@ $("#clone_aparat3").on("click",function () {
     $('.clon_here').append(cl3());
 })
 
-$("#add_desc").on("click",function () {
-    $("#add_textarea").toggleClass("hidden");
-})
-CKEDITOR.replace('textarea1', editor_config );
+
 
 
 $(document).ready(function () {
-    $(".text_button button").on("click",function () {
-        var add = $(this).siblings("p").html();
-        CKEDITOR.instances['textarea1'].insertText(add);
-    })
+
 
 
 
@@ -529,7 +576,7 @@ $(document).ready(function () {
 
 //    prewiew
 
-    $(".preview p ").on("click",function () {
+    $(".preview p ").one("click",function () {
         var mod = "<!-- Modal -->\n" +
             "<div class=\"modal fade\" id=\"exampleModalCenter\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"exampleModalCenterTitle\" aria-hidden=\"true\">\n" +
             "  <div class=\"modal-dialog modal-dialog-centered\" role=\"document\">\n" +
@@ -625,7 +672,6 @@ $(document).ready(function () {
             "  </div>\n" +
             "</div>";
         $(this).parents(".preview").append(mod);
-
 
 
 

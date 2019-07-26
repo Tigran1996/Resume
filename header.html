@@ -86,57 +86,60 @@
 <div class="header_inputs">
     <h2>Let’s start with your header</h2>
     <p>Include your full name and at least one way for employers to reach you.</p>
-<form class="form_header">
+<form class="form_header" id="MyForm">
         <div class="name">
             <div class="first_name">
             <label>First name</label>
-            <input type="text" id="first_inp" placeholder="Dorothy">
+            <input type="text" id="first_inp" placeholder="Dorothy" required>
             </div>
             <div class="first_name">
             <label>Last name</label>
-            <input type="text" id="last_input" placeholder="Hloomberg">
+            <input type="text" id="last_input" placeholder="Hloomberg" required>
         </div>
         </div>
             <div class="address_input">
                 <label>Street Address</label>
-                <input type="text" id="street_address" placeholder="21756 Osten str., h. 50">
+                <input type="text" id="street_address" placeholder="21756 Osten str., h. 50" required>
             </div>
             <div class="address_sity">
                 <div class="sity_input">
                     <label>City</label>
-                    <input type="text" id="city_address" placeholder="Yerevan">
+                    <input type="text" id="city_address" placeholder="Yerevan" required>
                 </div>
                 <div class="state_zip">
                     <div class="zip">
                         <label>State</label>
-                        <input type="number" id="state_address" placeholder="ER">
+                        <input type="number" id="state_address" placeholder="ER" required>
                     </div>
                     <div class="zip">
                         <label>Zip Code</label>
-                        <input type="email" id="zip_code" placeholder="0082">
+                        <input type="number" id="zip_code" placeholder="0082" required>
                     </div>
                 </div>
             </div>
             <div class="name">
                 <div class="first_name">
                     <label>Email </label>
-                    <input type="email" id="email_address" placeholder="DorothyHloomberg@gmail.com">
+                    <input type="email" id="email_address" placeholder="DorothyHloomberg@gmail.com" required>
                 </div>
                 <div class="first_name">
                     <label>Phone </label>
-                    <input type="number" id="phone" placeholder="+374 44 44 44 44">
+                    <input type="number" id="phone" placeholder="+374 44 44 44 44" required>
                 </div>
             </div>
             <div class="back_continue back_continue1">
                 <a href="dashboard.html" class="back_left">
                     <p><span class="fas fa-long-arrow-alt-left"></span> Back</p>
                 </a>
-                <a href="experience.html" class="continue_right">
+                <a href="experience.html" class="continue_right" id="SubmitBtn">
                     <p> Continue <span class="fas fa-long-arrow-alt-right"></span></p>
+
                 </a>
             </div>
+            <button type="submit" id="edBtn" style="display: none;"></button>
 
-       </form>
+
+        </form>
         </div>
        <div class=" cv_template example1">
            <div class="cv-scroll">
