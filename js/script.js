@@ -528,51 +528,6 @@ $(document).ready(function () {
     });
 
 
-//    range fonts
-    $('#range-value').html($('#input-range').attr('value'));
-    $('#input-range').on('input', function(){
-        $('#range-value').html(this.value + "px");
-    });
-//
-    $('#range-value2').html($('#input-range2').attr('value'));
-    $('#input-range2').on('input', function(){
-        $('#range-value2').html(this.value + "px");
-    });
-//
-    $('#range-value3').html($('#input-range3').attr('value'));
-    $('#input-range3').on('input', function(){
-        $('#range-value3').html(this.value + "px");
-    });
-//
-    $('#range-value4').html($('#input-range4').attr('value'));
-    $('#input-range4').on('input', function(){
-        $('#range-value4').html(this.value + "px");
-    });
-//
-    $('#range-value5').html($('#input-range5').attr('value'));
-    $('#input-range5').on('input', function(){
-        $('#range-value5').html(this.value + "px");
-    });
-//
-    $('#range-value6').html($('#input-range6').attr('value'));
-    $('#input-range6').on('input', function(){
-        $('#range-value6').html(this.value + "px");
-    });
-//
-    $('#range-value7').html($('#input-range7').attr('value'));
-    $('#input-range7').on('input', function(){
-        $('#range-value7').html(this.value + "px");
-    });
-//
-    $('#range-value8').html($('#input-range8').attr('value'));
-    $('#input-range8').on('input', function(){
-        $('#range-value8').html(this.value + "px");
-    });
-//
-    $('#range-value1').html($('#input-range1').attr('value'));
-    $('#input-range1').on('input', function(){
-        $('#range-value1').html(this.value + "px");
-    });
 
 //    prewiew
 

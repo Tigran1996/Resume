@@ -178,10 +178,9 @@
     list-style: circle;
 
 }
-.example3
-.example3
-.example3
-.example3
+.red_item{
+    list-style: none !important;
+}
 
 
 /*example3 end*/

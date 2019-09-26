@@ -934,6 +934,7 @@
 }
 .red_row{
     margin: 10px 0;
+ align-items: center;
     justify-content: space-between;
 }
 .red_left_side{
@@ -956,12 +957,16 @@
     margin: 15px 0;
 }
 .card_li li {
-    list-style: disc;
-    color: #2D64AC;
-}
-.card_li li p {
-    color: #000;
+    color: #000000;
     max-width: 100px;
+    margin: 10px;
+
+
+}
+.card_li li:before{
+    content: '•';
+    margin-right: 5px;
+    color: #2D64AC;
 }
 .card_li ul{
     display: flex;

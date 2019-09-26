@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1caf43d5-a9f9-47df-856e-8ffa407470ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ResumeShablon/res_example2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResumeShablon/res_example3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/formating.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeShablon/res_example1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ResumeShablon/res_example1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeShablon/res_example2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ResumeShablon/res_example2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeShablon/res_example3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ResumeShablon/res_example3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cover_template_redaktor.html" beforeDir="false" afterPath="$PROJECT_DIR$/cover_template_redaktor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/dashboard.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/resumesstyles/example.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/resumesstyles/example.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/download.html" beforeDir="false" afterPath="$PROJECT_DIR$/download.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="375" column="43" selection-start-line="375" selection-start-column="43" selection-end-line="375" selection-end-column="43" />
+            <state relative-caret-position="281">
+              <caret line="494" column="34" selection-start-line="494" selection-start-column="26" selection-end-line="494" selection-end-column="34" />
               <folding>
                 <element signature="n#!!block;n#cl2#0" />
               </folding>
@@ -33,11 +37,44 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/resumesstyles/example.css">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cover_template_redaktor.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="178" selection-start-line="178" selection-end-line="178" />
+            <state relative-caret-position="510">
+              <caret line="365" column="116" selection-start-line="365" selection-start-column="116" selection-end-line="365" selection-end-column="116" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/formating.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="705">
+              <caret line="58" column="38" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ResumeShablon/res_example1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="39" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="39" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/dashboard.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="427">
+              <caret line="967" column="21" selection-start-line="967" selection-start-column="21" selection-end-line="967" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -45,8 +82,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ResumeShablon/res_example3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="671">
-              <caret line="70" column="183" selection-start-line="70" selection-start-column="183" selection-end-line="70" selection-end-column="183" />
+            <state relative-caret-position="272">
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ResumeShablon/res_example2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="90" lean-forward="true" selection-start-line="9" selection-start-column="90" selection-end-line="9" selection-end-column="90" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/resumesstyles/example.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="158" column="1" lean-forward="true" selection-start-line="158" selection-start-column="1" selection-end-line="158" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -58,18 +113,12 @@
       <list>
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>add_description</find>
-      <find>red_active</find>
-      <find>download</find>
-      <find>.preview p</find>
-      <find>preview</find>
-      <find>slider</find>
-      <find>resume 8</find>
       <find>cv_template example1</find>
       <find>sor</find>
       <find>823</find>
@@ -93,6 +142,13 @@
       <find>cv_template</find>
       <find>H</find>
       <find>h4</find>
+      <find>#input-range</find>
+      <find>range-value</find>
+      <find>sortable</find>
+      <find>red_row</find>
+      <find>card-body card_li</find>
+      <find>card_li</find>
+      <find>line we</find>
     </findStrings>
     <replaceStrings>
       <replace>q</replace>
@@ -126,7 +182,6 @@
         <option value="$PROJECT_DIR$/sammary.html" />
         <option value="$PROJECT_DIR$/template_redaktor.html" />
         <option value="$PROJECT_DIR$/websites,profiles.html" />
-        <option value="$PROJECT_DIR$/cover_template_redaktor.html" />
         <option value="$PROJECT_DIR$/carusel.html" />
         <option value="$PROJECT_DIR$/cover.html" />
         <option value="$PROJECT_DIR$/edu_summary.html" />
@@ -142,25 +197,26 @@
         <option value="$PROJECT_DIR$/res_example1.html" />
         <option value="$PROJECT_DIR$/finalize.html" />
         <option value="$PROJECT_DIR$/skills.html" />
-        <option value="$PROJECT_DIR$/css/dashboard.css" />
         <option value="$PROJECT_DIR$/experience.html" />
-        <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/download.html" />
+        <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/ResumeShablon/res_example1.html" />
         <option value="$PROJECT_DIR$/ResumeShablon/res_example2.html" />
         <option value="$PROJECT_DIR$/ResumeShablon/res_example3.html" />
         <option value="$PROJECT_DIR$/css/resumesstyles/example.css" />
+        <option value="$PROJECT_DIR$/css/dashboard.css" />
+        <option value="$PROJECT_DIR$/cover_template_redaktor.html" />
+        <option value="$PROJECT_DIR$/js/formating.js" />
       </list>
     </option>
   </component>
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="976" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -215,7 +271,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/OSPanel/domains/rivalA" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -308,7 +364,7 @@
       <workItem from="1564121930225" duration="117000" />
       <workItem from="1564129013009" duration="7975000" />
       <workItem from="1569308901286" duration="277000" />
-      <workItem from="1569479356830" duration="10146000" />
+      <workItem from="1569479356830" duration="18102000" />
     </task>
     <task id="LOCAL-00001" summary="Add Site">
       <created>1559114878587</created>
@@ -377,7 +433,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="237991000" />
+    <option name="totallyTimeSpent" value="245947000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -389,10 +445,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="976" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.18995634" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18976545" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -405,15 +461,15 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.33694476" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32936078" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32932165" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4989083" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5010917" side_tool="true" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12899786" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18976545" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -422,12 +478,12 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.33694476" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32936078" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32932165" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4989083" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5010917" side_tool="true" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -464,7 +520,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/img/Template 2-1.jpg" />
     <entry file="file://$PROJECT_DIR$/img/page00011.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -591,24 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/choose tenplate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="277" column="36" lean-forward="true" selection-start-line="277" selection-start-column="36" selection-end-line="277" selection-end-column="36" />
-          <folding>
-            <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Contact_us.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="421">
@@ -679,13 +716,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="356">
           <caret line="57" column="56" selection-start-line="57" selection-start-column="56" selection-end-line="57" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cover.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="203" column="9" lean-forward="true" selection-end-line="211" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -769,16 +799,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cover_template_redaktor.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="407" column="33" lean-forward="true" selection-start-line="407" selection-start-column="33" selection-end-line="407" selection-end-column="33" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/edu_summary.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -825,13 +845,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/dashboard.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6919">
-          <caret line="407" column="1" selection-start-line="407" selection-start-column="1" selection-end-line="407" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/finalize.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1598">
@@ -850,45 +863,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ResumeShablon/res_example1.html">
+    <entry file="file://$PROJECT_DIR$/choose tenplate.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="16" selection-end-column="27" />
+        <state relative-caret-position="322">
+          <caret line="269" column="14" lean-forward="true" selection-start-line="269" selection-start-column="14" selection-end-line="269" selection-end-column="14" />
+          <folding>
+            <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cover.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="196" column="14" lean-forward="true" selection-start-line="196" selection-start-column="14" selection-end-line="196" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="375" column="43" selection-start-line="375" selection-start-column="43" selection-end-line="375" selection-end-column="43" />
+        <state relative-caret-position="281">
+          <caret line="494" column="34" selection-start-line="494" selection-start-column="26" selection-end-line="494" selection-end-column="34" />
           <folding>
             <element signature="n#!!block;n#cl2#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ResumeShablon/res_example2.html">
+    <entry file="file://$PROJECT_DIR$/ResumeShablon/res_example3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="81" column="22" lean-forward="true" selection-start-line="81" selection-start-column="22" selection-end-line="81" selection-end-column="22" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="272">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ResumeShablon/res_example3.html">
+    <entry file="file://$PROJECT_DIR$/ResumeShablon/res_example2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="70" column="183" selection-start-line="70" selection-start-column="183" selection-end-line="70" selection-end-column="183" />
+        <state relative-caret-position="153">
+          <caret line="9" column="90" lean-forward="true" selection-start-line="9" selection-start-column="90" selection-end-line="9" selection-end-column="90" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/resumesstyles/example.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="178" selection-start-line="178" selection-end-line="178" />
+        <state relative-caret-position="371">
+          <caret line="158" column="1" lean-forward="true" selection-start-line="158" selection-start-column="1" selection-end-line="158" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/dashboard.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="967" column="21" selection-start-line="967" selection-start-column="21" selection-end-line="967" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ResumeShablon/res_example1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="39" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cover_template_redaktor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="365" column="116" selection-start-line="365" selection-start-column="116" selection-end-line="365" selection-end-column="116" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/formating.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="58" column="38" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
         </state>
       </provider>
     </entry>
