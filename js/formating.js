@@ -2,13 +2,13 @@
 $('#range-value').html($('#input-range').attr('value'));
 $('#input-range').on('input', function(){
     $('#range-value').html(this.value + "pt");
-    $('.red_left_side p,.red_left_side li').css("font-size",this.value + "pt")
+    $('#sortable p,.red_left_side li').css("font-size",this.value + "pt")
 });
 //
 $('#range-value1').html($('#input-range1').attr('value'));
 $('#input-range1').on('input', function(){
     $('#range-value1').html(this.value + "pt");
-    $(".red_left_side h5").css("font-size",this.value + "pt")
+    $("#sortable h5").css("font-size",this.value + "pt")
 });
 // //
 $('#range-value2').html($('#input-range2').attr('value'));
@@ -53,4 +53,8 @@ $('#input-range8').on('input', function(){
     $("#sortable p").css("font-weight",this.value)
 });
 //
+$("#font_famly").on("change",function () {
+    console.log(this.value)
+    $("#sortable").css("font-family",this.value)
+})
 
